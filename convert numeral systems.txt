@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+
+public class NewClass1 {
+public static void main(String[] args){
+ Scanner s = new Scanner(System.in);
+ int decimal=s.nextInt();
+ 
+ System.out.println("decimalNumber is"+decimal);
+ System.out.println("binaryNumber is"+Integer.toBinaryString(decimal));
+ System.out.println("Octodemical is "+Integer.toOctalString(decimal));
+ System.out.println("Hexademical is"+Integer.toHexString(decimal));
+ 
+ }
+}
