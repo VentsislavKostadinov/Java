@@ -1,0 +1,50 @@
+import java.util.Arrays;
+
+
+public class ArraysExample {
+	
+	public static void reverseArrays1() {
+
+
+    // first way to reverse arrays
+		
+		int[] arrays = {1, 2, 3, 4, 5, 6};
+		
+	int length = arrays.length;
+			int[] reversed = new int[length];
+			
+			for(int i = 0; i < length; i++) {
+				
+				reversed[length - i - 1] = arrays[i];
+			}
+			System.out.println(Arrays.toString(reversed));
+		
+	}
+	
+	public static void reverseArrays2() {
+
+
+    // second way to reverse arrays
+		
+int[] arrays = {1, 2, 3, 4, 5, 6};
+	
+	
+		for (int i = arrays.length -1; i >=0 ; i--) {
+			
+			
+			System.out.printf(" %d ", arrays[i]);
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		reverseArrays1();
+		reverseArrays2();
+	
+	
+	
+		
+}
+
+}
