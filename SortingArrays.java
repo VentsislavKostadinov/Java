@@ -14,10 +14,7 @@ public class SortingArrays {
         	 
         	 System.out.printf(" Numbers: %d ", i);
        }
-		System.out.println();
-         
-         
 		
-	}
-
+     	}
+	
 }
