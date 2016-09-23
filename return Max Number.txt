@@ -1,0 +1,56 @@
+public class findBiggestNumber {
+	
+
+		
+        public void findMax() {                           // UNstatic no void method
+		
+		int max = 0;
+		int[] numbers = {5, 2300 , 22, 100, };
+		
+		
+		
+		for(int i = 0; i <numbers.length; i++) {
+			
+			
+			if(numbers[i] > max) {
+				max = numbers[i];
+			}
+		}
+
+		System.out.println(max);
+	
+              }                                  // end UNstatic no void method
+		
+	
+	
+	
+	public static void findMaxNumber() {           // static void method 
+		
+		
+		int max = 0;
+		int[] numbers = {5, 314 , 22};
+		
+		
+		
+		for(int i = 0; i <numbers.length; i++) {
+			
+			
+			if(numbers[i] > max) {
+				max = numbers[i];
+			}
+		}
+
+		System.out.println(max);
+	
+                }                                  // end static void method                              
+
+	public static void main(String[] args) {
+		
+		
+		findBiggest big = new findBiggest();
+		big.findMax();
+		
+	findMaxNumber();	
+	
+	
+	
